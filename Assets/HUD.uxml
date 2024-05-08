@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/HUD%20Style.uss?fileID=7433441132597879392&amp;guid=10377396ea6226a41bea8fc73c49512e&amp;type=3#HUD Style" />
+    <ui:Label tabindex="-1" text="Es el turno de X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TurnIndicator" style="font-size: 50%; -unity-text-align: upper-center; -unity-font-style: bold;" />
+    <ui:Button text="END TURN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="EndTurnButton" style="width: 10%; height: 10%; left: 89%; bottom: -54%; font-size: 30%;" />
+    <ui:VisualElement name="Bottom" style="justify-content: flex-start; height: 28%; flex-direction: row; bottom: -55%;">
+        <ui:VisualElement name="SkillButtons" class="container" style="bottom: auto; height: 100%;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SkillButtonA" class="skill-button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SkillButtonB" class="skill-button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SkillButtonC" class="skill-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Tooltip" class="container" style="right: auto; bottom: auto; flex-direction: column; align-items: flex-start; align-self: auto;">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text" style="width: 100%; height: 28%; font-size: 60%; -unity-font-style: normal;" />
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text" style="width: 100%; height: 72%; font-size: 35%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

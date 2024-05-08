@@ -1,0 +1,45 @@
+.skill-button {
+    align-self: center;
+    width: 25%;
+    height: 80%;
+    color: rgba(27, 27, 27, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(159, 159, 159);
+    flex-shrink: 0;
+    opacity: 1;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.skill-button:focus {
+    align-self: center;
+    color: rgba(27, 27, 27, 0);
+    background-color: rgb(255, 255, 255);
+    flex-shrink: 0;
+    scale: 1.15 1.15;
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    overflow: visible;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.text {
+    background-color: rgb(255, 255, 255);
+}
