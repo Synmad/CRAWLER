@@ -3,5 +3,5 @@ using UnityEngine;
 
 public class HeroParty : MonoBehaviour
 {
-    [field: SerializeField] public List<Hero> Heroes { get; private set; } = new();
+    [field: SerializeField] public List<HeroController> Heroes { get; private set; } = new();
 }
